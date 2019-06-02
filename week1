@@ -1,0 +1,45 @@
+# 2-1
+message = "Shubham Kumar"
+print(message)
+
+# 2-2
+message = "Not Shubham"
+print(message)
+
+print(message[2:6])
+print(message[:7])
+print(message[0])
+print(message[4:11], "Aye!")
+
+# 2-3
+name = "shubham"
+print("Hello", name.title(), ", would you like to learn some python today?")
+
+# 2-4
+print(name.title())
+print(name.lower())
+print(name.upper())
+
+# 2-5
+print('"Not everything that counts can be counted and not everything that is counted truely counts." \n- A Einstein')
+
+# 2-6
+famous_person  = "albert einstein"
+message = '"Not everything that counts can be counted and not everything that is counted truely counts."'
+print(message, "\n-", famous_person.title())
+
+# 2-7
+FirstName = 'Shubham'
+LastName = 'Kumar'
+name = '\t'+ FirstName +'\t'+  LastName + ':::'
+print(name)
+print(name.strip('\t' and ':'))
+print(name.lstrip('\t'))
+print(name.rstrip(':'))
+
+# 2-8
+print(4+4)
+print(12-4)
+print(4*2)
+print(32/4)
+print(26%9)
